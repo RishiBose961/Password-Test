@@ -1,4 +1,4 @@
-# 🔐 Auth-Node-Mongodb API
+# 🔐 Password test API
 
 <div align="center">
 
