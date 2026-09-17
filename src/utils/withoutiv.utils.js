@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const algorithm = 'aes-256-ecb';
+const algorithm = 'aes-256-ecb'; //Advanced Encryption Standard - 256-bit key - Electronic Codebook mode
 const secretKey = process.env.SECRET_KEY;
 
 if (!secretKey || Buffer.from(secretKey, 'hex').length !== 32) {
